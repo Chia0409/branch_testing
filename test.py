@@ -1,4 +1,3 @@
-
 import csv
 with open (file="./test.csv",  mode='r', encoding='utf-8') as f:
     csv_reader =csv.reader(f)
@@ -14,3 +13,4 @@ with open('test.csv', mode='r', encoding='utf-8') as file:
     # 逐行讀取並顯示資料
     for row in csv_reader:
         print(row)
+
